@@ -1,6 +1,6 @@
 # vv3-template-router-CT
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with Vue 3 in Vite. It uses Composition API, Tailwindcss and Font Awesome.
 
 Usage:
 
