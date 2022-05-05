@@ -1,11 +1,21 @@
-# vv3-template-router-CT
+# vv3-templ
 
-This template should help get you started developing with Vue 3 in Vite. It uses Composition API, Tailwindcss and Font Awesome.
+This template should help get you started developing with Vue 3 in Vite.
+
+## It uses:
+
+- Vue 3
+- Vue Router 4
+- Vite
+- Composition API
+- Tailwindcss
+- Font Awesome
+- Pinia Store
 
 Usage:
 
 ```
-npx degit hossainih03/vv3-template-router-CT your-project
+npx degit hossaini310/vv3-templ your-project
 ```
 
 ## Recommended IDE Setup
