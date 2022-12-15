@@ -31,6 +31,8 @@ This template uses the following technologies:
 - [Vite](https://nodejs.org/): A build tool that provides fast development server and optimized production builds for modern web applications
 - [Node.js](https://nodejs.org/): A JavaScript runtime environment that allows you to run JavaScript code outside of a browser
 - [npm](https://www.npmjs.com/): A package manager for JavaScript that allows you to install and manage dependencies for your projects
+- [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html): A new API for building Vue applications that provides a simpler and more flexible way to create reusable logic
+- [Pinia Store](https://pinia.esm.dev/): A composable state management library for Vue 3 applications
 - [Iconify](https://iconify.design/): A library of over 100,000 icons that can be used in your web applications
 
 Use the following two websites to find icons:
