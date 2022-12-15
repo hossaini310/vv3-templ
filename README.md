@@ -1,51 +1,65 @@
-# vv3-templ
+# Vue 3, Vite Template
 
-This template should help you to get started developing with Vue 3 in Vite.
+This is a template for a Vue 3 project using the [Vite](https://vitejs.dev/) build tool.
 
-## It uses:
+## Usage
 
-- Vue 3
-- Vue Router 4
-- Vite
-- Composition API
-- Tailwindcss
-- Font Awesome
-- Pinia Store
-
-Usage:
+To use this template, run the following command to generate a new project based on this template:
 
 ```
 npx degit hossaini310/vv3-templ your-project
 ```
 
-## Recommended IDE Setup
+This will create a new directory called your-project that contains the files from this template. Next, navigate to the new directory with `cd your-project` and install the required dependencies with `npm install`. Once the dependencies are installed, the website can be started with `npm run dev` which will start a development server with hot reloading enabled. For production builds, you can use `npm run build` which will create a minified version of your application in the dist directory.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+### Setup
 
-## Customize configuration
+The following steps are required to set up and use this template:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Generate a new project based on this template with the command:
+   `npx degit hossaini310/express-templ your-project`
+2. Install the required dependencies with `npm install`
+3. Start the development server with `npm run dev`
 
-## Project Setup
+Once the development server has started, you can access the application in your browser at http://localhost:8080. For production builds, you can use `npm run build` which will create a minified version of your application in the dist directory.
 
-```sh
-npm install
-```
+## Technologies Used
 
-### Compile and Hot-Reload for Development
+This template uses the following technologies:
 
-```sh
-npm run dev
-```
+- [Vue](https://expressjs.com/): A JavaScript framework for building user interfaces
+- [Vite](https://nodejs.org/): A build tool that provides fast development server and optimized production builds for modern web applications
+- [Node.js](https://nodejs.org/): A JavaScript runtime environment that allows you to run JavaScript code outside of a browser
+- [npm](https://www.npmjs.com/): A package manager for JavaScript that allows you to install and manage dependencies for your projects
+- [Iconify](https://iconify.design/): A library of over 100,000 icons that can be used in your web applications
 
-### Compile and Minify for Production
+Use the following two websites to find icons:
 
-```sh
-npm run build
-```
+- [Iconify](https://iconify.design/icon-sets/): The official website from the Iconify team
+- [Icones](https://icones.js.org/): A website that provides a searchable list of icons from the Iconify library
 
-### Lint with [ESLint](https://eslint.org/)
+## Packages Used
 
-```sh
-npm run lint
-```
+This template uses the following npm packages:
+
+- [vue](https://www.npmjs.com/package/vue): A progressive JavaScript framework for building user interfaces
+- [vue-router](https://www.npmjs.com/package/vue-router): The official router for Vue 3 applications.
+- [@tailwindcss/forms](https://www.npmjs.com/package/@tailwindcss/forms): A plugin for Tailwind CSS that provides form styles
+- [axios](https://www.npmjs.com/package/axios): A promise-based HTTP client for the browser and Node.js
+- [pinia](https://www.npmjs.com/package/pinia): A composable state management library for Vue 3 applications
+- [eslint](https://www.npmjs.com/package/eslint): A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
+- [eslint-plugin-vue](https://www.npmjs.com/package/eslint-plugin-vue): A plugin for the ESLint linting tool that provides rules specific to Vue.js single-file components
+- [@vitejs/plugin-vue](https://www.npmjs.com/package/@vitejs/plugin-vue): A plugin for the Vite development server that provides improved support for building Vue.js applications.
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer): A tool that automatically adds vendor prefixes to CSS rules to ensure that they work correctly in different browsers
+- [postcss](https://www.npmjs.com/package/postcss): A tool for transforming CSS with JavaScript
+- [tailwindcss](https://www.npmjs.com/package/tailwindcss): A utility-first CSS framework for rapidly building custom user interfaces
+- [@iconify/vue](https://www.npmjs.com/package/@iconify/vue): A Vue 3 component for displaying icons from Iconify
+- [vite](https://www.npmjs.com/package/vite): A build tool that provides fast development server and optimized production builds for modern web applications
+
+## Additional Resources
+
+For more information on using Express, I recommend the following resources:
+
+- The [Vue 3 documentation](https://v3.vuejs.org/) on the official Vue website
+- An [Vite documentation](https://vitejs.dev/) on the official Vite website
+- A [video tutorial](https://www.youtube.com/watch?v=JLt3GrDZDvQ&list=RDCMUCgmcPHueYRarnCkihtNIRlw&start_radio=1) on YouTube by LearnVue
