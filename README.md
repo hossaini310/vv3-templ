@@ -49,7 +49,7 @@ This template uses the following npm packages:
 - [@tailwindcss/forms](https://www.npmjs.com/package/@tailwindcss/forms): A plugin for Tailwind CSS that provides form styles
 - [axios](https://www.npmjs.com/package/axios): A promise-based HTTP client for the browser and Node.js
 - [pinia](https://www.npmjs.com/package/pinia): A composable state management library for Vue 3 applications
-- [eslint](https://www.npmjs.com/package/eslint): A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
+- [eslint](https://www.npmjs.com/package/eslint): A linter for JavaScript and TypeScript
 - [eslint-plugin-vue](https://www.npmjs.com/package/eslint-plugin-vue): A plugin for the ESLint linting tool that provides rules specific to Vue.js single-file components
 - [@vitejs/plugin-vue](https://www.npmjs.com/package/@vitejs/plugin-vue): A plugin for the Vite development server that provides improved support for building Vue.js applications.
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): A tool that automatically adds vendor prefixes to CSS rules to ensure that they work correctly in different browsers
