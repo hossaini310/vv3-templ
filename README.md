@@ -27,13 +27,14 @@ Once the development server has started, you can access the application in your 
 
 This template uses the following technologies:
 
-- [Vue](https://expressjs.com/): A JavaScript framework for building user interfaces
-- [Vite](https://nodejs.org/): A build tool that provides fast development server and optimized production builds for modern web applications
+- [Vue](https://vuejs.org/): A progressive JavaScript framework for building user interfaces
+- [Vite](https://vitejs.dev/): A build tool that provides fast development server and optimized production builds for modern web applications
 - [Node.js](https://nodejs.org/): A JavaScript runtime environment that allows you to run JavaScript code outside of a browser
 - [npm](https://www.npmjs.com/): A package manager for JavaScript that allows you to install and manage dependencies for your projects
 - [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html): A new API for building Vue applications that provides a simpler and more flexible way to create reusable logic
 - [Pinia Store](https://pinia.esm.dev/): A composable state management library for Vue 3 applications
 - [Iconify](https://iconify.design/): A library of over 100,000 icons that can be used in your web applications
+- [Vitest](https://www.npmjs.com/package/vitest/): A testing framework for Vue 3 applications
 
 Use the following two websites to find icons:
 
@@ -57,6 +58,9 @@ This template uses the following npm packages:
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): A utility-first CSS framework for rapidly building custom user interfaces
 - [@iconify/vue](https://www.npmjs.com/package/@iconify/vue): A Vue 3 component for displaying icons from Iconify
 - [vite](https://www.npmjs.com/package/vite): A build tool that provides fast development server and optimized production builds for modern web applications
+- [vitest](https://www.npmjs.com/package/vitest/): A testing framework for Vue 3 applications
+- [@rushstack/eslint-patch](https://www.npmjs.com/package/@rushstack/eslint-patch): A patch for the ESLint linter that fixes a bug that causes it to crash when using the ESLint plugin for Vue.js
+- [caniuse-lite](https://www.npmjs.com/package/caniuse-lite): A database of browser support for various web technologies
 
 ## Additional Resources
 
