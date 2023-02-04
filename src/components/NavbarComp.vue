@@ -3,12 +3,12 @@
     <nav class="text-xl">
       <RouterLink
         to="/"
-        class="rounded-xl py-1 px-5 mr-5 hover:underline decoration-emerald-30 active:bg-emerald-50 focus:underline underline-offset-8 decoration-emerald-300"
+        class="decoration-emerald-30 mr-5 rounded-xl py-1 px-5 decoration-emerald-300 underline-offset-8 hover:underline focus:underline active:bg-emerald-50"
         >Home
       </RouterLink>
       <RouterLink
         to="/about"
-        class="rounded-xl py-1 px-5 mr-5 hover:underline decoration-emerald-30 active:bg-emerald-50 focus:underline underline-offset-8 decoration-emerald-300"
+        class="decoration-emerald-30 mr-5 rounded-xl py-1 px-5 decoration-emerald-300 underline-offset-8 hover:underline focus:underline active:bg-emerald-50"
       >
         About
       </RouterLink>
