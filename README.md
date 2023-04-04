@@ -60,7 +60,6 @@ This template uses the following npm packages:
 - [vite](https://www.npmjs.com/package/vite): A build tool that provides fast development server and optimized production builds for modern web applications
 - [vitest](https://www.npmjs.com/package/vitest/): A testing framework for Vue 3 applications
 - [@rushstack/eslint-patch](https://www.npmjs.com/package/@rushstack/eslint-patch): A patch for the ESLint linter that fixes a bug that causes it to crash when using the ESLint plugin for Vue.js
-- [caniuse-lite](https://www.npmjs.com/package/caniuse-lite): A database of browser support for various web technologies
 - [prettier](https://www.npmjs.com/package/prettier): A code formatter for JavaScript, TypeScript, CSS, JSON, and more
 - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): A plugin for the Prettier code formatter that formats Tailwind CSS classes
 
