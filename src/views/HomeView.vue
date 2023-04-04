@@ -24,7 +24,7 @@
 
 <script setup>
 import WelcomeComp from '@/components/WelcomeComp.vue';
-import { useDefaultStore } from '@/stores/defaultStore.js';
+import useDefaultStore from '@/stores/defaultStore.js';
 import { Icon } from '@iconify/vue';
 
 const store = useDefaultStore();

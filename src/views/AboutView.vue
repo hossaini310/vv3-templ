@@ -5,6 +5,6 @@
   </div>
 </template>
 <script setup>
-import { useDefaultStore } from '@/stores/defaultStore.js';
+import useDefaultStore from '@/stores/defaultStore.js';
 const store = useDefaultStore();
 </script>
