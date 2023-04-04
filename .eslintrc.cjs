@@ -1,11 +1,18 @@
-/* eslint-env node */
 module.exports = {
-  "root": true,
-  "extends": [
-    "plugin:vue/vue3-essential",
-    "eslint:recommended"
-  ],
-  "env": {
-    "vue/setup-compiler-macros": true
-  }
-}
+  env: {
+    es2021: true,
+    node: true,
+  },
+  extends: ['airbnb-base'],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  rules: {
+    'linebreak-style': 'off',
+    'import/extensions': 'off',
+    'no-console': 'off',
+    'object-curly-newline': 'off',
+    'implicit-arrow-linebreak': 'off',
+  },
+};
