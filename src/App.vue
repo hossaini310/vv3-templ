@@ -1,9 +1,10 @@
 <template>
   <div class="container mx-auto text-center">
     <NavbarComp></NavbarComp>
-    <router-view></router-view>
+    <RouterView />
   </div>
 </template>
 <script setup>
 import NavbarComp from '@/components/NavbarComp.vue';
+import { RouterView } from 'vue-router';
 </script>
