@@ -1,13 +1,11 @@
 import { defineStore } from 'pinia';
+import { ref } from 'vue';
 
-const useDefaultStore = defineStore('DefaultId', {
-  state: () => ({
-    aboutContent: 'Something about the app. (From Pinia-Store)',
-    homeContent:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, sapiente? (From Pinia-Store)',
-  }),
-  actions: {},
-  getters: {},
+const useDefaultStore = defineStore('DefaultId', () => {
+  const aboutContent = ref('Implementiert von © Hosain Hossaini, HTL Wien West 2023');
+  const homeContent = ref('This is a template for a Vue 3 project using the Vite build tool.');
+
+  return { aboutContent, homeContent };
 });
 
 export default useDefaultStore;

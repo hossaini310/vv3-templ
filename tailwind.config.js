@@ -6,6 +6,9 @@ module.exports = {
     extend: {},
     colors: {
       emerald: colors.emerald,
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
     },
   },
   plugins: [],
