@@ -26,6 +26,15 @@
         class="h-auto w-8 text-[#f5e132]"
       />
     </div>
+
+    <div class="mt-10">
+      <button
+        class="rounded-full bg-emerald-500 px-6 py-2 font-bold text-white active:bg-emerald-600"
+        @click="increaseCounter()"
+      >
+        Counter: <span>{{ store.counter }}</span>
+      </button>
+    </div>
   </div>
 </template>
 
@@ -35,4 +44,6 @@ import useDefaultStore from '@/stores/defaultStore.js';
 import { Icon } from '@iconify/vue';
 
 const store = useDefaultStore();
+
+const increaseCounter = () => store.increaseCounter();
 </script>

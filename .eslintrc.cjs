@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    es2021: true,
+    es2022: true,
     node: true,
   },
   extends: ['airbnb-base'],
@@ -14,5 +14,9 @@ module.exports = {
     'no-console': 'off',
     'object-curly-newline': 'off',
     'implicit-arrow-linebreak': 'off',
+  },
+  globals: {
+    $ref: true,
+    $$: true,
   },
 };
