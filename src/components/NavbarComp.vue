@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mb-12 mt-6 flex grid-cols-3 justify-center rounded-full bg-gray-200 px-10 py-6 sm:grid"
+    class="mx-3 mb-12 mt-6 flex grid-cols-3 justify-center rounded-full bg-gray-200 px-10 py-6 sm:grid"
   >
     <RouterLink class="flex items-center" to="/">
       <Icon icon="logos:vue" class="mr-2 h-auto w-12" />

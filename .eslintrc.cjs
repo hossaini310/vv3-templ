@@ -15,8 +15,4 @@ module.exports = {
     'object-curly-newline': 'off',
     'implicit-arrow-linebreak': 'off',
   },
-  globals: {
-    $ref: true,
-    $$: true,
-  },
 };
