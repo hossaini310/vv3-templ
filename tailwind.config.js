@@ -1,7 +1,8 @@
-import colors from 'tailwindcss/colors';
+const colors = require('tailwindcss/colors');
 
-export default {
-  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+module.exports = {
+  content: [
+    './index.html', './src/**/*.{index.html,vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {},
     colors: {
