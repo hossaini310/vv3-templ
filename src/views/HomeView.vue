@@ -41,7 +41,6 @@
 <script setup>
 import TitleComp from '@/components/TitleComp.vue';
 import useDefaultStore from '@/stores/defaultStore.js';
-import { Icon } from '@iconify/vue';
 
 const store = useDefaultStore();
 

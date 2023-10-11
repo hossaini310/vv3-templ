@@ -8,13 +8,15 @@
     </RouterLink>
     <nav class="flex items-center justify-center text-xl">
       <RouterLink
+        :class="route.path == '/' ? 'font-extrabold text-emerald-500' : ''"
         to="/"
-        class="decoration-emerald-30 mr-5 rounded-xl px-5 decoration-emerald-300 underline-offset-8 focus:font-extrabold focus:text-emerald-500"
+        class="decoration-emerald-30 focus: mr-5 rounded-xl px-5 decoration-emerald-300 underline-offset-8"
         >Home
       </RouterLink>
       <RouterLink
+        :class="route.path == '/about' ? 'font-extrabold text-emerald-500' : ''"
         to="/about"
-        class="decoration-emerald-30 mr-5 rounded-xl px-5 decoration-emerald-300 underline-offset-8 focus:font-extrabold focus:text-emerald-500"
+        class="decoration-emerald-30 mr-5 rounded-xl px-5 decoration-emerald-300 underline-offset-8"
       >
         About
       </RouterLink>
@@ -23,6 +25,7 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
-import { Icon } from '@iconify/vue';
+import { RouterLink, useRoute } from 'vue-router';
+
+const route = useRoute();
 </script>
